@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+Project_Assignments/**/__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and generated output
+*.log
+logs/
+Project_Assignments/**/logs/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# Credentials and secrets
+.env
+.env.*
+oauth_credentials.json
+service_account.json
+service-account.json
+database_export.json
+*.key
+*.pem
